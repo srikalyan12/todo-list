@@ -8,7 +8,7 @@ interface Props {
 }
 
 const SearchInput = ({ onSearch }: Props) => {
-    return <Search placeholder={"input search text"}
+    return <Search placeholder={"Input search text"}
     allowClear
     enterButton="Search"
     size="large"
